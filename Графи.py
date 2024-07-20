@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def check_edge(adjacency_matrix, node1, node2):
     """
     Перевіряє, чи існує ребро між двома вузлами в графі.
@@ -23,7 +22,6 @@ matrix = [
 
 print(check_edge(matrix, 0, 1))  # Виведе 1
 print(check_edge(matrix, 0, 2))  # Виведе -1
-=======
 
 """
 Рекурсивна реалізація алгоритму DFS
@@ -163,4 +161,3 @@ from collections import deque
 import networkx as nx
 
 G = nx.Graph()
->>>>>>> 5473237882d089ca4ba5e344f4a95181f3d0f19d
